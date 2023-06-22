@@ -21,7 +21,7 @@ class Feedback extends Component {
                <ul className="emojis-list">
                   {emojis.map(emoji => {
                       <li key={emoji.id}>
-                        <button type="button" className="btn" onClick={this.onclickEmoji}>
+                        <button type="button" className="btn" onClick={this.onClickEmoji}>
                            <img 
                             src={emoji.imageUrl}
                             alt={emoji.name}
@@ -66,5 +66,5 @@ render() {
     </div>
     )
 }
-
+}
 export default Feedback
